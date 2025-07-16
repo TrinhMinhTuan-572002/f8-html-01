@@ -40,12 +40,15 @@ a{
 background: #E6F0FF;
 position: relative;
 height: 100vh;
+
 }
 .navbar{
     display: flex;
     align-items: center;
     padding-top: 38px;
-
+    
+    
+    
 }
 .navbar ul{
     display: flex;
@@ -131,10 +134,22 @@ height: 100vh;
     margin-top: 23px;
 }
 .clients .images{
-    margin-top: 96px;
+    margin-top:70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.clients .images a{
+    height: 91px;
+    display: flex;
+    align-items: center;
+    padding: 0px 42px;
+    /* background: #0689FF; */
+    border-radius: 12px;
+    background: #FFF; 
+}
+.clients .images a:hover{
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
 }
 /* =====Guides===== */
 .guide{
