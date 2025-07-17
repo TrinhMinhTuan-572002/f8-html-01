@@ -35,25 +35,32 @@ a{
 }.btn:hover{
     opacity: 0.9;
 }
+/* ======fixed-header===== */
+.fixed-header {
+    background:#e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+    
+}
 /* ========Header========== */
-.header{
-background: #E6F0FF;
-position: relative;
-height: 100vh;
+.hero-wrap{
+    background: #E6F0FF;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 
 }
 .navbar{
     display: flex;
     align-items: center;
-    padding-top: 38px;
-    
-    
-    
+    padding: 12px 0;
 }
 .navbar ul{
     display: flex;
     margin-left: 50px;
-    
 }
 .navbar .actions{
     margin-left: auto;
